@@ -15,6 +15,7 @@
 		358A78A420BD9634009C0FEC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 358A78A320BD9634009C0FEC /* main.m */; };
 		358A78AE20BD9634009C0FEC /* DemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 358A78AD20BD9634009C0FEC /* DemoTests.m */; };
 		358A78B920BD9634009C0FEC /* DemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 358A78B820BD9634009C0FEC /* DemoUITests.m */; };
+		358A78CB20BD98A5009C0FEC /* CustomVIew.m in Sources */ = {isa = PBXBuildFile; fileRef = 358A78CA20BD98A5009C0FEC /* CustomVIew.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		358A78B420BD9634009C0FEC /* DemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		358A78B820BD9634009C0FEC /* DemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DemoUITests.m; sourceTree = "<group>"; };
 		358A78BA20BD9634009C0FEC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		358A78C920BD98A5009C0FEC /* CustomVIew.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CustomVIew.h; sourceTree = "<group>"; };
+		358A78CA20BD98A5009C0FEC /* CustomVIew.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CustomVIew.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +108,8 @@
 				358A789520BD9633009C0FEC /* AppDelegate.m */,
 				358A789720BD9633009C0FEC /* ViewController.h */,
 				358A789820BD9633009C0FEC /* ViewController.m */,
+				358A78C920BD98A5009C0FEC /* CustomVIew.h */,
+				358A78CA20BD98A5009C0FEC /* CustomVIew.m */,
 				358A789A20BD9633009C0FEC /* Main.storyboard */,
 				358A789D20BD9634009C0FEC /* Assets.xcassets */,
 				358A789F20BD9634009C0FEC /* LaunchScreen.storyboard */,
@@ -262,6 +267,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				358A78CB20BD98A5009C0FEC /* CustomVIew.m in Sources */,
 				358A789920BD9633009C0FEC /* ViewController.m in Sources */,
 				358A78A420BD9634009C0FEC /* main.m in Sources */,
 				358A789620BD9633009C0FEC /* AppDelegate.m in Sources */,

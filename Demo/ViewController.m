@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+#import "CustomVIew.h"
 
 @interface ViewController ()
 
@@ -16,9 +17,23 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
+    
+    CustomVIew *view = [[CustomVIew alloc] initWithFrame:CGRectMake(0, 0, 150, 150)];
+    view.backgroundColor = UIColor.orangeColor;
+    view.center = self.view.center;
+    [self.view addSubview:view];
+    
+    UIButton *button = [UIButton buttonWithType:0];
+    button.frame = CGRectMake(-50, -50, 100, 100);
+    [button setBackgroundColor:UIColor.greenColor];
+    [button addTarget:self action:@selector(click:) forControlEvents:UIControlEventTouchUpInside];
+    [view addSubview:button];
 }
 
+- (void)click:(UIButton *)sender
+{
+    NSLog(@"click");
+}
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
